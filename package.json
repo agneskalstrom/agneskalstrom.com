@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -23,7 +23,6 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0",
     "prettier": "2.2.1"
   },
   "repository": {

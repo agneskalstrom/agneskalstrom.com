@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/agneskalstrom.com",
   plugins: [
     {
       resolve: `gatsby-plugin-layout`,

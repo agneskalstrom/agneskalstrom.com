@@ -172,6 +172,10 @@ aside {
   .bottom-img {
     margin-top: 0;
   }
+
+  .cursor {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
