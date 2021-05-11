@@ -12,7 +12,7 @@ export default function emojiAquarium() {
       desc="A virtual aquarium with emoji sea creatures, made with vanilla JS and Canvas."
       bottomImg={emojiaquarium2}
       bottomImgAlt="Screenshot of Emoji Aquarium."
-      linkURL="https://agneskalstrom.com/emoji-aquarium/"
+      linkURL="https://agneskalstrom.github.io/emoji-aquarium/"
       linkText="See demo"
     />
   )
