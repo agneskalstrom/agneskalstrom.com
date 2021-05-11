@@ -5,7 +5,7 @@ export default function Box(props) {
   return (
     <div className="project-box" id={props.title}>
       <Link to={props.link}>
-        <img src={props.image} />
+        <img src={props.image} alt={props.alt} />
       </Link>
     </div>
   )

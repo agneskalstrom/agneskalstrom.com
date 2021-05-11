@@ -12,6 +12,7 @@ export default function ProjectsGrid() {
             image={project.img}
             title={project.title}
             link={project.link}
+            alt={project.alt}
           />
         )
       })}

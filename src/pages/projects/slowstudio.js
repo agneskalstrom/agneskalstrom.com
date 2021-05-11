@@ -7,6 +7,7 @@ export default function slowStudio() {
   return (
     <ProjectDisplay
       topImg={slowstudio}
+      topImgAlt="Screenshot of the top section/start page of Slow Studio website."
       title="Slow Studio"
       desc="For the newly founded interior design company Slow Studio, we were
             asked to create both a visual identity as well as a website with a
@@ -15,6 +16,7 @@ export default function slowStudio() {
             template in Wix to make it as easy as possible for the client to
             maintain the website and art shop going forward."
       bottomImg={slowstudio2}
+      bottomImgAlt="Screenshot of entire Slow Studio website."
     />
   )
 }

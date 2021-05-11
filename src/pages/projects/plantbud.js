@@ -7,6 +7,7 @@ export default function datePlanner() {
   return (
     <ProjectDisplay
       topImg={plantbud}
+      topImgAlt="Screenshot of top section of PlantBud website."
       title="PlantBud"
       desc="During a 24 hour design sprint, we were challenged to come up with a
             business idea and create a design for a company website. I came up
@@ -15,6 +16,7 @@ export default function datePlanner() {
             coded a mock-up for a bright and simple landing page that encourages
             visitors to join the community."
       bottomImg={plantbud2}
+      bottomImgAlt="Screenshot of the entire PlantBud website."
     />
   )
 }

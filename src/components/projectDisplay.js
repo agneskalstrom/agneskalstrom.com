@@ -5,7 +5,7 @@ export default function ProjectDisplay(props) {
     <main className="wrapper">
       <section className="top-container">
         <div className="top-img">
-          <img src={props.topImg} />
+          <img src={props.topImg} alt={props.topImgAlt} />
         </div>
         <section className="top-right">
           <div className="top-right-info">
@@ -18,7 +18,7 @@ export default function ProjectDisplay(props) {
         </section>
       </section>
       <section className="bottom-img">
-        <img src={props.bottomImg} />
+        <img src={props.bottomImg} alt={props.bottomImgAlt} />
       </section>
     </main>
   )
