@@ -196,6 +196,11 @@ aside {
     z-index: 20;
   }
 
+  .hamburger div:focus {
+    outline: 0 !important;
+    box-shadow: none;
+  }
+
   .hamburger img {
     width: 1.6em;
   }
