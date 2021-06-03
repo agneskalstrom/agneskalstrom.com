@@ -11,6 +11,7 @@ export default function Layout({ children }) {
       <Helmet>
         <title>Agnes Kalström</title>
         <link rel="canonical" href="http://agneskalstrom.com" />
+        <meta name="description" content="Agnes Kalström, web developer and designer based in Stockholm, Sweden." />
       </Helmet>
       <Cursor />
       <Header />
