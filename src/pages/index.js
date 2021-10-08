@@ -1,8 +1,12 @@
 import React from "react"
-import ProjectsGrid from "../components/projectsGrid"
+import Intro from "../components/intro"
+import ProjectGrid from "../components/projectGrid"
 
 export default function Home() {
   return (
-      <ProjectsGrid />
+    <>
+      <Intro />
+      <ProjectGrid />
+    </>
   )
 }

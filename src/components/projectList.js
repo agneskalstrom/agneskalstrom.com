@@ -1,66 +1,66 @@
 import pomodoro from "../images/pomodoro.jpg"
 import gifMuseum from "../images/gifmuseum.jpg"
 import plantBud from "../images/plantbud.jpg"
-import datePlanner from "../images/dateplanner.jpg"
 import creativeChase from "../images/creativechase.jpg"
 import magazine from "../images/magazine.jpg"
 import emojiAquarium from "../images/emojiaquarium.jpg"
 import bobRoss from "../images/bobross.jpg"
-import slowStudio from "../images/slowstudio.jpg"
+import pleasantville from "../images/pleasantville.jpg"
+import digisera from "../images/digisera.jpg"
 
 const allProjects = [
     {
         title: "pomodoro-timer",
         img: pomodoro,
-        link: "/projects/pomodoro/",
+        link: "/work/pomodoro/",
         alt: "Pomodoro Timer"
+    },
+    {
+        title: "digisera",
+        img: digisera,
+        link: "/work/digisera/",
+        alt: "Digisera"
     },
     {
         title: "museum-of-gifs",
         img: gifMuseum,
-        link: "/projects/gifmuseum/",
+        link: "/work/gifmuseum/",
         alt: "Museum of GIFs"
-    },
-    {
-        title: "date-planner",
-        img: datePlanner,
-        link: "/projects/dateplanner/",
-        alt: "Date Planner"
     },
     {
         title: "timeless-wisdom",
         img: bobRoss,
-        link: "/projects/timelesswisdom/",
+        link: "/work/timelesswisdom/",
         alt: "Bob Ross Timeless Wisdom"
+    },
+    {
+        title: "postcards-from-pleasantville",
+        img: pleasantville,
+        link: "/work/pleasantville/",
+        alt: "Postcards from Pleasantville"
     },
     {
         title: "fictional-magazine",
         img: magazine,
-        link: "/projects/fictionalmagazine/",
+        link: "/work/fictionalmagazine/",
         alt: "Fictional magazine spread"
     },
     {
         title: "plantbud",
         img: plantBud,
-        link: "/projects/plantbud/",
+        link: "/work/plantbud/",
         alt: "PlantBud"
     },
     {
         title: "creative-chase",
         img: creativeChase,
-        link: "/projects/creativechase/",
+        link: "/work/creativechase/",
         alt: "Creative Chase"
-    },
-    {
-        title: "slow-studio",
-        img: slowStudio,
-        link: "/projects/slowstudio/",
-        alt: "Slow Studio"
     },
     {
         title: "emoji-aquarium",
         img: emojiAquarium,
-        link: "/projects/emojiaquarium/",
+        link: "/work/emojiaquarium/",
         alt: "Emoji Aquarium"
     },
 ]

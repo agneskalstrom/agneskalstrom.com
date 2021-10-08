@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Link from "gatsby-link"
-import logo from "../images/logo.svg"
-import burger from "../images/hamburger.svg"
-import close from "../images/close.svg"
+import logo from "../images/assets/logo.svg"
+import burger from "../images/assets/hamburger.svg"
+import close from "../images/assets/close.svg"
 
 export default function Header() {
   const [open, setOpen] = useState(false)
@@ -29,12 +29,12 @@ export default function Header() {
               <Link to="/about/">About</Link>
             </li>
             <li className="menu-item">
-              <Link to="/contact/">Contact</Link>
+              <Link to="/work/">Work</Link>
             </li>
           </ul>
         </nav>
         <nav className="hamburger">
-          <div onClick={toggleMenu} onKeyDown={toggleMenu} role="button" tabindex="0">
+          <div onClick={toggleMenu} onKeyDown={toggleMenu} role="button" tabIndex="0">
             {!open ? (
               <img src={burger} aria-label="Open hamburger menu" />
             ) : (
@@ -51,7 +51,7 @@ export default function Header() {
                 <Link to="/about/" onClick={closeMenu} onKeyDown={closeMenu}>About</Link>
               </li>
               <li className="menu-item">
-                <Link to="/contact/" onClick={closeMenu} onKeyDown={closeMenu}>Contact</Link>
+                <Link to="/work/" onClick={closeMenu} onKeyDown={closeMenu}>Work</Link>
               </li>
             </ul>
           </nav>
