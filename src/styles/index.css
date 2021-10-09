@@ -121,7 +121,6 @@ footer p {
   border-bottom: 0;
   font-size: 1.5em;
   color: black;
-  opacity: .6;
   padding-bottom: 0;
   padding-top: 0;
   background: none;
@@ -130,7 +129,7 @@ footer p {
 }
 
 .footer-right a:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 .footer-right {
