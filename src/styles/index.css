@@ -67,7 +67,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.2s;
+  transition: .05s;
 }
 
 .logo a {
@@ -421,10 +421,9 @@ address h2 {
   .burger-menu {
     width: 100vw;
     background-color: white;
-    padding-left: 3em;
-    padding-right: 3em;
     padding-bottom: 3em;
     text-align: right;
+    z-index: 100;
   }
 
   .menu-item {

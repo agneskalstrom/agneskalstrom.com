@@ -45,7 +45,7 @@ export default function Header() {
       </header>
       <aside>
         {!open ? null : (
-          <nav className="burger-menu">
+          <nav className="burger-menu wrapper">
             <ul className="burger-list">
               <li className="menu-item">
                 <Link to="/about/" onClick={closeMenu} onKeyDown={closeMenu}>About</Link>
