@@ -13,7 +13,7 @@ export default function About() {
             Animal Crossing 🎮 and watch The Joy of Painting with Bob Ross 🎨. Sometimes simultaneously.
           </p>
           <p>
-            I am knowledgeable in the following technologies and tools: HTML, CSS,
+            I have knowledge of the following technologies and tools: HTML, CSS,
             JavaScript, SASS, React, Gatsby, Adobe Photoshop, InDesign,
             Illustrator, XD, Figma
           </p>

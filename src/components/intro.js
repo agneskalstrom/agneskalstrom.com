@@ -13,7 +13,7 @@ export default function Intro() {
           </SplitText>
         </h1>
         <div className="intro-links">
-            <Link to="/about/">About me</Link>
+            <Link to="/about/">Contact me</Link>
             <span className="bullet">•</span>
             <Link to="#work">My work ↓</Link>
         </div>
