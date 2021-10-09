@@ -14,7 +14,7 @@ export default function Footer() {
       <p>© {year} Agnes Kalström</p>
     </div>
     <div className="footer-right">
-      <Link to="https://github.com/agneskalstrom">
+      <Link to="https://github.com/agneskalstrom/agneskalstrom.com">
         <FontAwesomeIcon icon={faGithub} />
       </Link>
     </div>

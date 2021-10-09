@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <>
-      <header>
+      <header className="wrapper">
         <div className="logo">
           <Link to="/" onClick={closeMenu} onKeyDown={closeMenu} role="button">
             <img src={logo} alt="Agnes Kalström logo" aria-label="Go to start page" />

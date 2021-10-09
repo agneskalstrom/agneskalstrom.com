@@ -62,7 +62,8 @@ h1 {
 /* Header */
 
 header {
-  padding: 1.5em 5em 1.5em 5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,6 +99,7 @@ aside {
 }
 
 /* Footer */
+
 footer {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
@@ -226,10 +228,6 @@ footer p {
   padding-left: 3em;
 }
 
-.project-details li {
-  font-size: .9em;
-}
-
 .project-images {
   width: 100%;
 }
@@ -277,6 +275,7 @@ footer p {
 
 .emoji {
   background-color: #17a1d4;
+  padding: 0;
 }
 
 .large-emoji {
@@ -388,12 +387,12 @@ address h2 {
 
 @media screen and (max-width: 768px) {
 
-  h1 {
-    font-size: 2.4em;
+  .logo {
+    max-width: 7.5em;
   }
 
-  header {
-    padding: 1.5em 3em 1.5em 3em;
+  h1 {
+    font-size: 2.4em;
   }
 
   aside {
@@ -442,8 +441,8 @@ address h2 {
   }
 
   .wrapper {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 
   .project-presentation {
