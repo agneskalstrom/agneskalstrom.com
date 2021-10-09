@@ -161,8 +161,9 @@ footer p {
   font-style: oblique;
 }
 
-.intro-links ul {
+.intro-links {
   display: flex;
+  align-items: center;
 }
 
 .bullet {
