@@ -15,7 +15,8 @@ export default function Footer() {
     </div>
     <div className="footer-right">
       <Link to="https://github.com/agneskalstrom/agneskalstrom.com">
-        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
+        <span class="sr-only">Go to GitHub repository</span>
       </Link>
     </div>
     </footer>
