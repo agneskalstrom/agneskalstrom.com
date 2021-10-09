@@ -9,7 +9,7 @@ import "../styles/index.css"
 export default function Layout({ children }) {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{lang: 'en',}}>
         <title>Agnes Kalström</title>
         <link rel="canonical" href="https://agneskalstrom.com" />
         <meta name="description" content="Web developer and designer based in Stockholm, Sweden." />
