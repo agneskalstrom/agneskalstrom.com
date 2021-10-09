@@ -14,7 +14,7 @@ export default function Intro() {
             <li>
               <Link to="/about/">About me</Link>
             </li>
-            <span className="bullet">•</span>
+            <span className="bullet" aria-label="hidden">•</span>
             <li>
               <Link to="#work">My work ↓</Link>
             </li>
