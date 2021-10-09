@@ -15,13 +15,13 @@ export default function creativeChase () {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={creativechase} />
+          <img src={creativechase} alt="Creative Chase website" />
           <div className="display">
-            <img src={creativechaselogo} className="creative-chase-logo" />
+            <img src={creativechaselogo} className="creative-chase-logo" alt="Creative Chase logo" />
           </div>
         </div>
         <div className="long-section">
-          <img src={creativechase2} />
+          <img src={creativechase2} alt ="Full Creative Chase website" />
         </div>
       </section>
     </>

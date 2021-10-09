@@ -16,8 +16,8 @@ export default function timelessWisdom() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={bobross} />
-          <img src={bobross2} />
+          <img src={bobross} alt="Bob Ross Timeless Wisdom website" />
+          <img src={bobross2} alt="GIF showing different quotes from the website" />
         </div>
       </section>
     </>

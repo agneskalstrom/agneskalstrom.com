@@ -15,11 +15,11 @@ export default function plantBud() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={plantbud} />
-          <img src={plantbudgif} />
+          <img src={plantbud} alt="PlantBud website" />
+          <img src={plantbudgif} alt="PlantBud search function GIF" />
         </div>
         <div className="long-section">
-          <img src={plantbud2} />
+          <img src={plantbud2} alt="Full PlantBud website" />
         </div>
       </section>
     </>

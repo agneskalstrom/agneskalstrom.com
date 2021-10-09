@@ -18,8 +18,8 @@ export default function pomodoroTimer() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={pomodoro} />
-          <img src={pomodorogif} />
+          <img src={pomodoro} alt="Pomodoro timer app" />
+          <img src={pomodorogif} alt="GIF showing the app switching between focus and break mode" />
         </div>
       </section>
     </>

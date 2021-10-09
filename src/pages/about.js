@@ -10,7 +10,7 @@ export default function About() {
           <p>
             I'm Agnes, a front-end development student and digital designer from
             Stockholm, Sweden 🇸🇪. When I'm not coding, I like to drink coffee ☕, play
-            Animal Crossing 🎮 and watch Bob Ross 🎨. Sometimes simultaneously.
+            Animal Crossing 🎮 and watch The Joy of Painting with Bob Ross 🎨. Sometimes simultaneously.
           </p>
           <p>
             I am knowledgeable in the following technologies and tools: HTML, CSS,

@@ -20,8 +20,8 @@ export default function gifMuseum() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={gifmuseum} />
-          <img src={gifmuseumgif} />
+          <img src={gifmuseum} alt="Museum of GIFs website" />
+          <img src={gifmuseumgif} alt="GIF of Girl with Pearl Earring rolling her eyes" />
         </div>
       </section>
     </>

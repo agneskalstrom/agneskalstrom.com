@@ -22,14 +22,14 @@ export default function pleasantville() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={pleasantville1} />
-          <img src={pleasantville2} />
+          <img src={pleasantville1} alt="Game website" />
+          <img src={pleasantville2} alt="Postcard in game" />
         </div>
         <div className="one-section-wide">
-            <img src={pleasantville3} />
+            <img src={pleasantville3} alt="Venus de Milo in game" />
         </div>
         <div className="one-section-wide">
-            <img src={pleasantville4} />
+            <img src={pleasantville4} alt="Door and exit sign in game" />
         </div>
       </section>
     </>

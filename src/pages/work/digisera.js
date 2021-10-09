@@ -22,12 +22,12 @@ export default function Digisera() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={digisera} />
-          <img src={digisera2} />
+          <img src={digisera} alt="Digisera website" />
+          <img src={digisera2} alt="Mockup of broschure for Digisera" />
         </div>
         <div className="two-section">
-          <img src={digisera3} />
-          <img src={digisera4} />
+          <img src={digisera3} alt="Brand colors with hex codes" />
+          <img src={digisera4} alt="Digisera logo and fonts" />
         </div>
       </section>
     </>

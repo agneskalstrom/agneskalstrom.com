@@ -16,7 +16,7 @@ export default function emojiAquarium() {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={emojiaquarium} />
+          <img src={emojiaquarium} alt="Emoji Aquarium website" />
           <div className="display emoji">
             <p className="large-emoji">🐟</p>
             <p className="small-emoji">🐠</p>
