@@ -9,7 +9,7 @@ export default function creativeChase () {
     <>
       <ProjectIntro
         title="Creative Chase"
-        desc="Design for a classmate's business idea for a business shop, created during a 36 hour sprint."
+        desc="Design for a classmate's business idea for an online poster shop, created during a 36 hour sprint."
         detail1="Figma"
         detail2="Illustrator"
       />
