@@ -119,7 +119,6 @@ footer p {
 
 .footer-right a:link, .footer-right a:visited {
   border-bottom: 0;
-  font-size: 1.5em;
   color: black;
   padding-bottom: 0;
   padding-top: 0;
@@ -129,11 +128,11 @@ footer p {
 }
 
 .footer-right a:hover {
-  opacity: .5;
+  opacity: .7;
 }
 
-.footer-right {
-  font-size: 1em;
+.footer-right img {
+  width: 1.5em;
 }
 
 /* Intro */

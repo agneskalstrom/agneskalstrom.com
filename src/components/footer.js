@@ -1,24 +1,21 @@
 import React from "react"
 import Link from "gatsby-link"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import github from "../images/assets/github.svg"
 
-let year = new Date().getFullYear();
+let year = new Date().getFullYear()
 
 export default function Footer() {
   return (
     <footer className="wrapper">
-    <div className="footer-left">
-    </div>
-    <div className="footer-center">
-      <p>© {year} Agnes Kalström</p>
-    </div>
-    <div className="footer-right">
-      <Link to="https://github.com/agneskalstrom/agneskalstrom.com">
-        <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
-        <span class="sr-only">Go to GitHub repository</span>
-      </Link>
-    </div>
+      <div className="footer-left"></div>
+      <div className="footer-center">
+        <p>© {year} Agnes Kalström</p>
+      </div>
+      <div className="footer-right">
+        <Link to="https://github.com/agneskalstrom/agneskalstrom.com">
+          <img src={github} aria-label="Go to GitHub repository" />
+        </Link>
+      </div>
     </footer>
   )
 }

@@ -17,9 +17,6 @@
   "dependencies": {
     "@cyriacbr/react-split-text": "^1.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
     "@mikaelkristiansson/domready": "^1.0.11",
     "gatsby": "^3.14.2",
     "gatsby-plugin-layout": "^2.4.0",
