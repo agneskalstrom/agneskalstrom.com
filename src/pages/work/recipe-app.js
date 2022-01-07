@@ -15,9 +15,9 @@ export default function Digisera() {
         approach="The app's main purpose is to provide assistance when inspiration is running low, and so a randomized recipe is instantly presented instead of the user having to search for certain dishes or ingredients – since deciding what to search for can feel like as much of an effort as deciding what to eat."
         solution="A super basic app with a list of ingredients, instructions and a button to generate a new recipe."
         tools="Figma, React, Netlify"
-        linkPrefix="Prototype:"
-        linkURL="https://www.figma.com/proto/RadYZoOdFDUhJHoknykgz3/Untitled?page-id=0%3A1&node-id=1%3A2&viewport=296%2C48%2C0.34&scaling=scale-down&starting-point-node-id=1%3A2&hide-ui=1"
-        linkText="Click here"
+        linkPrefix="App:"
+        linkURL="https://vadskaviata.netlify.app/"
+        linkText="https://vadskaviata.netlify.app/"
       />
       <section className="project-images wrapper">
         <div className="two-section">
