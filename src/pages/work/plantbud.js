@@ -10,8 +10,7 @@ export default function plantBud() {
       <ProjectIntro
         title="PlantBud"
         desc="PlantBud is the result of a 24 hour design sprint: a made-up online community for plant enthusiasts who wish to donate, swap and adopt house plants in their local area."
-        detail1="Figma"
-        detail2="Illustrator"
+        specs="Figma, Illustrator"
       />
       <section className="project-images wrapper">
         <div className="two-section">

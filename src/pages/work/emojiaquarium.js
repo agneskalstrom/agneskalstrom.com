@@ -11,8 +11,7 @@ export default function emojiAquarium() {
         linkPrefix="Website:"
         linkText="Click here"
         linkURL="https://agneskalstrom.github.io/emoji-aquarium/"
-        detail1="Vanilla JS"
-        detail2="Canvas"
+        specs="Vanilla JS, Canvas"
       />
       <section className="project-images wrapper">
         <div className="two-section">

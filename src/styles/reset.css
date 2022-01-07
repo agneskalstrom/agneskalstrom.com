@@ -29,6 +29,11 @@ ul {
   list-style: none;
 }
 
+li {
+  font-weight: 300;
+  font-size: 1em;
+}
+
 img {
   max-width: 100%;
   height: auto;

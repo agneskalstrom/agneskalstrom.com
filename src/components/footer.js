@@ -1,5 +1,4 @@
 import React from "react"
-import Link from "gatsby-link"
 import github from "../images/assets/github.svg"
 
 let year = new Date().getFullYear()
@@ -12,9 +11,9 @@ export default function Footer() {
         <p>© {year} Agnes Kalström</p>
       </div>
       <div className="footer-right">
-        <Link to="https://github.com/agneskalstrom/agneskalstrom.com">
+        <a href="https://github.com/agneskalstrom/agneskalstrom.com">
           <img src={github} aria-label="Go to GitHub repository" />
-        </Link>
+        </a>
       </div>
     </footer>
   )

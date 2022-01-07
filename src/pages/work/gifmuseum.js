@@ -13,10 +13,7 @@ export default function gifMuseum() {
         linkPrefix="Website:"
         linkText="Click here"
         linkURL="https://gif-museum.netlify.app/"
-        detail1="React"
-        detail2="Giphy API"
-        detail3="Free Dictionary API"
-        detail4="Netlify"
+        specs="React, Giphy API, Free Dictionary API, Netlify"
       />
       <section className="project-images wrapper">
         <div className="two-section">

@@ -15,10 +15,7 @@ export default function pleasantville() {
         linkPrefix="Play game:"
         linkText="Click here"
         linkURL="https://agneskalstrom.github.io/level-2-the-dream/"
-        detail1="A-Frame"
-        detail2="InDesign"
-        detail3="Photoshop"
-        detail4="Poly"
+        specs="A-Frame, InDesign, Photoshop, Poly"
       />
       <section className="project-images wrapper">
         <div className="two-section">

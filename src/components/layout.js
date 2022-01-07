@@ -12,7 +12,7 @@ export default function Layout({ children }) {
       <Helmet htmlAttributes={{lang: 'en',}}>
         <title>Agnes Kalström</title>
         <link rel="canonical" href="https://agneskalstrom.com" />
-        <meta name="description" content="Web developer and designer based in Stockholm, Sweden." />
+        <meta name="description" content="Agnes Kalström, web developer and designer based in Stockholm, Sweden." />
       </Helmet>
       <Cursor />
       <Header />

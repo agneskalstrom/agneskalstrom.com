@@ -9,8 +9,7 @@ export default function fictionalMagazine() {
       <ProjectIntro
         title="Magazine spread"
         desc="A fictional magazine spread featuring Alexander Lundvall and his illustrations."
-        detail2="InDesign"
-        detail3="Photoshop"
+        specs="InDesign, Photoshop"
       />
       <section className="project-images wrapper">
         <div className="two-section">

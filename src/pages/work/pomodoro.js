@@ -12,9 +12,7 @@ export default function pomodoroTimer() {
         linkPrefix="App:"
         linkText="Click here"
         linkURL="https://pomodoro-focus-timer.netlify.app/"
-        detail1="PWA"
-        detail2="React"
-        detail3="Netlify"
+        specs="Progressive Web App, React, Netlify"
       />
       <section className="project-images wrapper">
         <div className="two-section">

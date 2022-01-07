@@ -4,9 +4,9 @@ import ProjectGrid from "../components/projectGrid"
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Intro />
       <ProjectGrid />
-    </>
+    </main>
   )
 }

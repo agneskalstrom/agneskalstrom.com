@@ -12,7 +12,7 @@ export default function timelessWisdom() {
         linkPrefix="Website:"
         linkText="Click here"
         linkURL="https://agneskalstrom.github.io/bob-ross-timeless-wisdom/"
-        detail1="Vanilla JS"
+        specs="Vanilla JS"
       />
       <section className="project-images wrapper">
         <div className="two-section">

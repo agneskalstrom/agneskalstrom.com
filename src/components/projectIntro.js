@@ -1,27 +1,44 @@
 import React from "react"
 import Link from "gatsby-link"
-import { SplitText } from "@cyriacbr/react-split-text"
+import arrow from "../images/assets/left-arrow.svg"
 
 export default function ProjectIntro(props) {
   return (
-    <section className="project-intro wrapper">
-      <div className="project-presentation inner-wrapper">
-        <div className="project-description">
-          <h1><SplitText className="project-title">{props.title}</SplitText></h1>
-          <p>{props.desc}</p>
+    <section className="wrapper">
+      <div className="inner-wrapper intro-section">
+        <Link to="/#work" className="back-arrow">
+          <img src={arrow} alt="Go back" />
+        </Link>
+        <h1 className="project-title">Project: {props.title}</h1>
+        <div className="project-workflow">
           <p>
-            {props.linkPrefix} <Link to={props.linkURL}>{props.linkText}</Link>
+            <span className="bold-text">Case: </span>
+            <span>{props.case}</span>
           </p>
-        </div>
-        <div className="project-details">
-          <h2>Specs:</h2>
-          <ul>
-            <li>{props.detail1}</li>
-            <li>{props.detail2}</li>
-            <li>{props.detail3}</li>
-            <li>{props.detail4}</li>
-            <li>{props.detail5}</li>
-          </ul>
+          <p>
+            <span className="bold-text">My role: </span>
+            <span>{props.role}</span>
+          </p>
+          <p>
+            <span className="bold-text">Problem: </span>
+            <span>{props.problem}</span>
+          </p>
+          <p>
+            <span className="bold-text">Approach: </span>
+            <span>{props.approach}</span>
+          </p>
+          <p>
+            <span className="bold-text">Solution: </span>
+            <span>{props.solution}</span>
+          </p>
+          <p>
+            <span className="bold-text">Tools: </span>
+            <span>{props.tools}</span>
+          </p>
+          <p>
+            <span className="bold-text">{props.linkPrefix}</span>{" "}
+            <a href={props.linkURL}>{props.linkText}</a>
+          </p>
         </div>
       </div>
     </section>
