@@ -14,7 +14,7 @@ export default function Digisera() {
         problem="My partner and I often feel uninspired when it comes to cooking, but the fact that we have different dietary requirements makes it difficult for us to use most recipe apps available on the market."
         approach="As the app's main purpose is to provide assistance when inspiration is running low, a randomized recipe is instantly presented instead of the user having to search for certain dishes or ingredients – since deciding what to search for can feel like as much of an effort as deciding what to eat."
         solution="A super basic app with a list of ingredients, instructions and a button to generate a new recipe."
-        tools="Figma, React, Netlify"
+        specs="Figma, React, PWA, Netlify"
         linkPrefix="App:"
         linkURL="https://vadskaviata.netlify.app/"
         linkText="https://vadskaviata.netlify.app/"
