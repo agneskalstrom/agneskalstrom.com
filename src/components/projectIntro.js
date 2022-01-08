@@ -32,8 +32,8 @@ export default function ProjectIntro(props) {
             <span>{props.solution}</span>
           </p>
           <p>
-            <span className="bold-text">Specs: </span>
-            <span>{props.specs}</span>
+            <span className="bold-text">Tools: </span>
+            <span>{props.tools}</span>
           </p>
           <p>
             <span className="bold-text">{props.linkPrefix}</span>{" "}
