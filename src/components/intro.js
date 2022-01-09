@@ -1,5 +1,4 @@
 import React from "react"
-import SplitText from "./splitText"
 import arrow from "../images/assets/down-arrow.svg"
 
 export default function Intro() {
@@ -7,7 +6,7 @@ export default function Intro() {
     <section className="intro">
       <div className="wrapper">
         <div className="intro-section">
-          <SplitText />
+          <h1 className="intro-text">Hello! I'm Agnes, a <span className="bold-text">web developer</span> and <span className="bold-text">digital designer</span> in Stockholm.</h1>
           <div className="about-me">
             <p>
               When I'm not coding, you'll probably find me reading, playing video games or

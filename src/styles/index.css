@@ -15,7 +15,7 @@ body {
   border-radius: 100%;
   position: fixed;
   pointer-events: none;
-  transition: all .5s ease-out;
+  transition: all .7s ease-out;
   transform: translate(-50%, -50%);
   z-index: 100;
   mix-blend-mode: difference;
@@ -161,7 +161,7 @@ footer p {
   margin-right: 0.3em;
 }
 
-.split {
+/*.split {
   transition: 0.2s;
 }
 
@@ -169,7 +169,7 @@ footer p {
   padding-left: 0.08em;
   padding-right: 0.08em;
   font-style: oblique;
-}
+}*/
 
 header {
   display: flex;
@@ -338,11 +338,11 @@ header {
     font-size: 18px;
   }
 
-  .split:hover {
+  /*.split:hover {
     padding-left: 0;
     padding-right: 0;
     font-style: normal;
-  }
+  }*/
 
   .about-me {
     margin-bottom: 8vw;
