@@ -1,10 +1,11 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import Cursor from "./cursor"
 import Header from "./header"
 import Footer from "./footer"
-import Cursor from "./cursor"
 import "../styles/reset.css"
 import "../styles/index.css"
+
 
 export default function Layout({ children }) {
   return (
