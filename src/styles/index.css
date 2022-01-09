@@ -5,18 +5,20 @@ body {
   color: black;
   font-size: 24px;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .cursor {
   width: 20px;
   height: 20px;
-  transform: translate(10px, 10px);
-  background-color: black;
+  background-color: white;
   border-radius: 100%;
   position: fixed;
   pointer-events: none;
-  transition: all 0.5s ease-out;
+  transition: all .5s ease-out;
+  transform: translate(-50%, -50%);
   z-index: 100;
+  mix-blend-mode: difference;
 }
 
 .wrapper {
