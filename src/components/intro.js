@@ -17,7 +17,7 @@ export default function Intro() {
               <span className="bold-text">
                Some of the technologies and tools I frequently work with:
               </span>{" "}
-              HTML, CSS, JavaScript, React, Gatsby, Photoshop, InDesign,
+              HTML, CSS, JavaScript, React, Gatsby, Netlify, GitHub, Photoshop, InDesign,
               Illustrator, XD, Figma, Webflow
             </p>
             <p>
