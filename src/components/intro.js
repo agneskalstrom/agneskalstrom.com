@@ -55,7 +55,7 @@ export default function Intro() {
           </div>
           <div className="work-link">
             <p className="large-link">
-              <span className="bold-text">My work</span>{" "}
+              <span className="bold-text">Recent work</span>{" "}
               <span className="down-arrow"><img src={arrow} alt="Arrow pointing down" /></span>
             </p>
           </div>
