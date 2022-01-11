@@ -14,7 +14,7 @@ export default function creativeChase () {
         approach="As we had to rely only on verbal communication for understanding what we were supposed to create, it was critical to ask as many questions as possible regarding the look and feel of the website in the beginning of the project. Since we weren't allowed to ask for feedback from each other, I made sure to user test my design with other people."
         solution="My classmate's idea was a website where she'd be able to both showcase and sell custom made posters through a form filled out by the customer. Based on this information and using a couple of her illustrations as a base, I came up with a design that aligned with her vision but also focused on what I would like my experience to be as a potential customer."
         tools="Figma, Illustrator"
-        linkPrefix="Figma prototype:"
+        linkPrefix="Figma prototype (revised):"
         linkURL="https://www.figma.com/proto/7fVnFEQnRgl2gWt2bAgMAM/Untitled?page-id=0%3A1&node-id=2%3A2&viewport=296%2C48%2C0.58&scaling=min-zoom&starting-point-node-id=2%3A2&hide-ui=1"
         linkText="Click here"
       />
