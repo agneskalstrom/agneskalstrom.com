@@ -15,8 +15,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "engine.io": "^6.1.1",
-    "follow-redirects": "^1.14.7",
     "gatsby": "^3.14.2",
     "gatsby-plugin-layout": "^2.4.0",
     "gatsby-plugin-react-helmet": "^4.4.0",
