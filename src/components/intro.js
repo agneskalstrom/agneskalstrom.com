@@ -6,22 +6,21 @@ export default function Intro() {
     <section className="intro">
       <div className="wrapper">
         <div className="intro-section">
-          <h1 className="intro-text">Hello! I'm Agnes, a <span className="bold-text">web developer</span> and <span className="bold-text">digital designer</span> in Stockholm.</h1>
+          <h1 className="intro-text">
+            Hello! I'm Agnes, a <span className="bold-text">web developer</span>{" "}
+            and <span className="bold-text">digital designer</span> in
+            Stockholm.
+          </h1>
           <div className="about-me">
             <p>
-              When I'm not coding, you'll probably find me reading, playing video games or
-              watching The Joy of Painting with Bob Ross. Sometimes
-              simultaneously.
-            </p>
-            <p>
               <span className="bold-text">
-               Some of the technologies and tools I frequently work with:
+                Some of the technologies and tools I frequently work with:
               </span>{" "}
-              HTML, CSS, JavaScript, React, Gatsby, Netlify, GitHub, Photoshop, InDesign,
-              Illustrator, XD, Figma, Webflow
+              HTML, CSS, JavaScript, React, Gatsby, Netlify, GitHub, Photoshop,
+              InDesign, Illustrator, XD, Figma, Webflow
             </p>
             <p>
-              <span className="bold-text">Contact me:</span>{" "}
+              <span className="bold-text">Say hi:</span>{" "}
               <a
                 href="mailto:agnes.kalstrom@hyperisland.se"
                 className="contact-link"
@@ -36,7 +35,10 @@ export default function Intro() {
               >
                 LinkedIn
               </a>{" "}
-              <a href="https://github.com/agneskalstrom" className="contact-link">
+              <a
+                href="https://github.com/agneskalstrom"
+                className="contact-link"
+              >
                 GitHub
               </a>{" "}
               <a
@@ -56,7 +58,9 @@ export default function Intro() {
           <div className="work-link">
             <p className="large-link">
               <span className="bold-text">Recent work</span>{" "}
-              <span className="down-arrow"><img src={arrow} alt="Arrow pointing down" /></span>
+              <span className="down-arrow">
+                <img src={arrow} alt="Arrow pointing down" />
+              </span>
             </p>
           </div>
         </div>

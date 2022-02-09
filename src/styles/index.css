@@ -15,11 +15,12 @@ body {
   border-radius: 100%;
   position: fixed;
   pointer-events: none;
-  transition: all .7s ease-out;
+  transition: all .1s ease-out;
   transform: translate(-50%, -50%);
   z-index: 100;
   mix-blend-mode: difference;
 }
+
 
 .wrapper {
   padding-left: 5vw;
