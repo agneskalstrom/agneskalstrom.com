@@ -22,12 +22,12 @@ export default function PlantBud () {
       />
       <section className="project-images wrapper">
         <div className="two-section">
-          <img src={plantbud} alt="Creative Chase logo" />
-          <img src={plantbud2} alt="Creative Chase website" />
+          <img src={plantbud} alt="PlantBud website" />
+          <img src={plantbud2} alt="PlantBud typography" />
         </div>
         <div className="two-section">
-          <img src={plantbud3} alt="Creative Chase logo" />
-          <img src={plantbud4} alt="Creative Chase website" />
+          <img src={plantbud3} alt="Blobs with hex codes" />
+          <img src={plantbud4} alt="Two stickers on top of a pattern" />
         </div>
       </section>
     </>
