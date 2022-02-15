@@ -18,7 +18,7 @@ export default function Stickers() {
   return (
     <div className="stickers">
       <div className="sticker-text">
-        <p>Decorate my website</p>
+        <p>Decorate website</p>
         <img src={arrow} alt="" />
       </div>
       <div className="sticker-box">

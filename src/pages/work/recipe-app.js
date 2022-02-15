@@ -4,7 +4,7 @@ import recipe from "../../images/recipe-app.jpg"
 import recipe2 from "../../images/recipe-app-2.svg"
 
 
-export default function Digisera() {
+export default function RecipeApp() {
   return (
     <>
       <ProjectIntro

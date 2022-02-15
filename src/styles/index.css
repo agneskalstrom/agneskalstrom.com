@@ -1,3 +1,5 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
@@ -218,9 +220,30 @@ header {
 
 /* Projects */
 
-.projects-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.slick-next, .slick-prev {
+  z-index: 1;
+  transform: scale(2);
+  transition: 0.2s;
+}
+
+.slick-prev {
+  left: 30px;
+}
+
+.slick-prev:hover {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-next:hover {
+  right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
 }
 
 .project-box {
@@ -349,8 +372,24 @@ header {
     margin-bottom: 8vw;
   }
 
-  .projects-wrapper {
-    grid-template-columns: 1fr;
+  .slick-prev, .slick-next {
+    transform: scale(1.5);
+  }
+
+  .slick-prev {
+    left: 15px;
+  }
+
+  .slick-prev:hover {
+    left: 15px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+
+  .slick-next {
+    right: 10px;
   }
 
   .project-title {
