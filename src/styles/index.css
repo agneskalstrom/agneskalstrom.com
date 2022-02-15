@@ -373,7 +373,7 @@ header {
   }
 
   .slick-prev, .slick-next {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 
   .slick-prev {
