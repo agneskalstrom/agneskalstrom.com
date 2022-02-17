@@ -1,12 +1,12 @@
 import React from "react"
 import Draggable from "react-draggable"
-import heart from "../images/assets/heart.svg"
-import arrow from "../images/assets/hand-drawn-arrow.svg"
-import lemon from "../images/assets/lemon.svg"
-import cool from "../images/assets/cool.svg"
-import planet from "../images/assets/planet.svg"
-import coffee from "../images/assets/coffee.svg"
-import peace from "../images/assets/peace.svg"
+import heart from "../images/svg/heart.svg"
+import arrow from "../images/svg/hand-drawn-arrow.svg"
+import lemon from "../images/svg/lemon.svg"
+import cool from "../images/svg/cool.svg"
+import planet from "../images/svg/planet.svg"
+import coffee from "../images/svg/coffee.svg"
+import peace from "../images/svg/peace.svg"
 
 
 export default function Stickers() {

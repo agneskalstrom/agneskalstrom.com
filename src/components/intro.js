@@ -1,5 +1,5 @@
 import React from "react"
-import arrow from "../images/assets/down-arrow.svg"
+import arrow from "../images/svg/down-arrow.svg"
 
 export default function Intro() {
   return (

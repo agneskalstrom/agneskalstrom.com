@@ -1,6 +1,6 @@
 import React from "react";
-import nextArrow from "../images/assets/next-arrow.svg";
-import prevArrow from "../images/assets/prev-arrow.svg"
+import nextArrow from "../images/svg/next-arrow.svg";
+import prevArrow from "../images/svg/prev-arrow.svg"
 
 
 function NextArrow(props) {

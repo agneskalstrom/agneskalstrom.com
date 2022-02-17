@@ -1,5 +1,5 @@
 import React from "react"
-import github from "../images/assets/github.svg"
+import github from "../images/svg/github.svg"
 
 let year = new Date().getFullYear()
 

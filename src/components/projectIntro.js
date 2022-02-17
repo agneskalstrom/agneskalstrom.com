@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
-import arrow from "../images/assets/left-arrow.svg"
+import arrow from "../images/svg/left-arrow.svg"
 
 export default function ProjectIntro(props) {
   return (
