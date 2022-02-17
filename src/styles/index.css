@@ -68,6 +68,7 @@ a:active {
   cursor: pointer;
 }
 
+
 /* Footer */
 
 footer {
@@ -186,13 +187,23 @@ header {
   font-size: 0.6em;
   text-transform: uppercase;
   text-align: right;
-  margin-right: 20px;
+  margin-right: 60px;
 }
 
 .sticker-box {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sticker-box p {
+  display: flex;
+  align-items: center;
+}
+
+.sticker-box p>img {
+  max-width: 20px;
+  margin-left: 5px;
 }
 
 .stickers {
@@ -203,7 +214,7 @@ header {
 
 .sticker {
   cursor: grab;
-  max-width: 100px;
+  max-width: 200px;
   z-index: 99;
   position: absolute;
 }
