@@ -84,7 +84,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 0;
 }
 
@@ -197,14 +197,14 @@ footer p {
 
 .about-me {
   transition: 0.2s;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .spotify-wrapper {
   display: flex;
   font-size: 18px;
-  margin-top: 3vw;
+  margin-top: 40px;
 }
 
 .spotify-wrapper p {
@@ -318,14 +318,12 @@ footer p {
   transform: scale(1.05);
 }
 
-.inner-wrapper {
-  padding-top: 5vw;
-  padding-bottom: 5vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.inner-wrapper.intro-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
+.inner-wrapper 
 .back-arrow {
   display: contents;
 }
@@ -340,23 +338,8 @@ footer p {
 }
 
 .project-title {
-  margin-top: 3vw;
-}
-
-.project-workflow {
-  margin-top: 2vw;
-}
-
-.project-presentation {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
-  padding-bottom: 7.5em;
-}
-
-.project-description p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .project-images {
@@ -388,30 +371,14 @@ footer p {
 
   .intro > .wrapper {
     min-height: auto;
-    margin-bottom: 10vw;
-    margin-top: 10vw;
-  }
-
-  .about-me {
-    margin-bottom: 5vw;
-  }
-
-  .spotify-wrapper {
-    margin-top: 5vw;
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
 
   .intro-section {
     width: 100%;
     margin-bottom: 0;
     margin-top: 0;
-  }
-
-  .inner-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
   }
 
   .projects-wrapper {
@@ -422,6 +389,17 @@ footer p {
 @media screen and (max-width: 768px) {
   body {
     font-size: 18px;
+  }
+
+  .intro > .wrapper {
+    min-height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .inner-wrapper.intro-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   h1 {
@@ -439,28 +417,24 @@ footer p {
     font-style: normal;
   }*/
 
-  .about-me {
-    margin-bottom: 7vw;
-  }
-
   .slick-prev, .slick-next {
-    transform: scale(1.3);
+    transform: scale(1.7);
   }
 
   .slick-prev {
-    left: 15px;
+    left: 25px;
   }
 
   .slick-prev:hover {
-    left: 15px;
+    left: 25px;
   }
 
   .slick-next {
-    right: 10px;
+    right: 15px;
   }
 
-  .project-title {
-    margin-top: 5vw;
+  .slick-next:hover {
+    right: 15px;
   }
 
   .two-section {
