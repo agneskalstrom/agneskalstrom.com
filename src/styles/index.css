@@ -32,14 +32,15 @@ body {
 /* Typography */
 
 h1 {
-  font-size: calc(36px + 2vw);
-  line-height: 1.3;
+  font-size: calc(48px + 2vw);
+  line-height: 1.2;
   cursor: default;
 }
 
 p {
   line-height: 1.5;
   font-weight: 300;
+  max-width: 60ch;
 }
 
 .bold-text {
@@ -116,7 +117,7 @@ footer p {
 }
 
 .intro-section {
-  width: 805px;
+  width: 930px;
 }
 
 .intro-text {
@@ -209,7 +210,7 @@ header {
 .stickers {
   display: flex;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .sticker {
@@ -217,6 +218,12 @@ header {
   max-width: 200px;
   z-index: 99;
   position: absolute;
+  transition: .2s;
+  margin-top: 50px;
+}
+
+.sticker:hover {
+  max-width: 210px;
 }
 
 .nice {
@@ -227,6 +234,7 @@ header {
   font-weight: 800;
   letter-spacing: 1px;
   text-align: center;
+  top: 5px;
 }
 
 /* Projects */
@@ -290,6 +298,14 @@ header {
 
 .back-arrow img:hover {
   left: -10px;
+}
+
+a.angled-arrow {
+  border-bottom: 0;
+}
+
+a.angled-arrow:hover {
+  background: none;
 }
 
 .project-title {
@@ -373,6 +389,15 @@ header {
     font-size: 18px;
   }
 
+  h1 {
+    font-size: 42px;
+    line-height: 1.4;
+  }
+
+  .large-link {
+    font-size: 28px;
+  }
+
   /*.split:hover {
     padding-left: 0;
     padding-right: 0;
@@ -393,10 +418,6 @@ header {
 
   .slick-prev:hover {
     left: 15px;
-  }
-  
-  .slick-next {
-    right: 10px;
   }
 
   .slick-next {

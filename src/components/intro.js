@@ -41,18 +41,6 @@ export default function Intro() {
               >
                 GitHub
               </a>{" "}
-              <a
-                href="https://facebook.com/agnes.kalstrom"
-                className="contact-link"
-              >
-                Facebook
-              </a>{" "}
-              <a
-                href="https://www.instagram.com/agneskalstrom/"
-                className="contact-link"
-              >
-                Instagram
-              </a>
             </p>
           </div>
           <div className="work-link">
