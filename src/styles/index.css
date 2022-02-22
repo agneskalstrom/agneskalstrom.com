@@ -25,18 +25,9 @@ body {
   mix-blend-mode: difference;
 }
 
-
 .wrapper {
   padding-left: 5vw;
   padding-right: 5vw;
-}
-
-a.angled-arrow {
-  border-bottom: 0;
-}
-
-a.angled-arrow:hover {
-  background: none;
 }
 
 /* Typography */
@@ -77,6 +68,14 @@ a:active {
   border-bottom: 0;
   transition: 0.2s;
   cursor: pointer;
+}
+
+a.angled-arrow {
+  border-bottom: 0;
+}
+
+a.angled-arrow:hover {
+  background: none;
 }
 
 /* Header */
