@@ -7,15 +7,20 @@ export default function Spotify() {
 
   return (
     <div class="spotify-wrapper">
-      <img src={note} className={lastFM.status === "playing" ? "listening-status-active" : ""} alt="Musical note" />
+      <img
+        src={note}
+        className={lastFM.status === "playing" ? "listening-status-active" : ""}
+        alt="Musical note"
+      />
       {lastFM.status === "playing" ? (
-          <>
+        <>
           <p>
-            Listening to <span class="song-title">{lastFM.song.name}</span> by <span class="artist">{lastFM.song.artist}</span>
+            Listening to <span class="song-title">{lastFM.song.name}</span> by{" "}
+            <span class="artist">{lastFM.song.artist}</span>
           </p>
         </>
       ) : (
-          <p>Not currently listening to anything</p>
+        <p>Not currently listening to anything</p>
       )}
     </div>
   )
