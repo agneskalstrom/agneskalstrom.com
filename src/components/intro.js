@@ -1,4 +1,5 @@
 import React from "react"
+import Spotify from "./spotify"
 import arrow from "../images/svg/down-arrow.svg"
 
 export default function Intro() {
@@ -42,6 +43,7 @@ export default function Intro() {
                 GitHub
               </a>{" "}
             </p>
+            <Spotify />
           </div>
           <div className="work-link">
             <p className="large-link">

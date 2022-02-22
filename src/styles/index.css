@@ -198,7 +198,36 @@ footer p {
 .about-me {
   transition: 0.2s;
   margin-top: 2vw;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
+}
+
+.spotify-wrapper {
+  display: flex;
+  font-size: 18px;
+  margin-top: 3vw;
+}
+
+.spotify-wrapper p {
+  max-width: 100%;
+}
+
+.spotify-wrapper img {
+  margin-right: 10px;
+}
+
+.song-title, .artist {
+  font-style: oblique;
+}
+
+.listening-status-active {
+  position: relative;
+  animation: wiggle 1s infinite;
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(-10deg);}
+  50% {transform: rotate(10deg);}
+  100% {transform: rotate(-10deg);}
 }
 
 .large-link {
@@ -367,6 +396,10 @@ footer p {
     margin-bottom: 5vw;
   }
 
+  .spotify-wrapper {
+    margin-top: 5vw;
+  }
+
   .intro-section {
     width: 100%;
     margin-bottom: 0;
@@ -407,7 +440,7 @@ footer p {
   }*/
 
   .about-me {
-    margin-bottom: 8vw;
+    margin-bottom: 5vw;
   }
 
   .slick-prev, .slick-next {
