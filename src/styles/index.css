@@ -130,15 +130,10 @@ header {
   max-width: 210px;
 }
 
-.nice {
-  text-transform: uppercase;
-  color: black;
-  transform: rotate(-20deg);
-  position: relative;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-align: center;
-  top: 5px;
+.peace {
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 /* Footer */

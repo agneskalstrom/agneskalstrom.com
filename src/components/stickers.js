@@ -17,7 +17,7 @@ export default function Stickers() {
         <img src={arrow} alt="" />
       </div>
       <div className="sticker-box">
-        <p className="nice">Nice! <img src={peace} alt="Illustration of hand doing peace sign" /></p>
+        <img src={peace} alt="Illustration of hand doing peace sign" className="peace" />
         <Draggable>
           <img
             src={coffee}
