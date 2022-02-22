@@ -3,7 +3,7 @@ import { useLastFM } from "use-last-fm"
 import note from "../images/svg/note.svg"
 
 export default function Spotify() {
-  const lastFM = useLastFM("agneskalstrom", "06f7188d0b401ac73bc3100133a285bd")
+  const lastFM = useLastFM("agneskalstrom", process.env.GATSBY_LASTFM_KEY)
 
   return (
     <div class="spotify-wrapper">
