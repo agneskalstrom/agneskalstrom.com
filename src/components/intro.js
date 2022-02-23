@@ -7,8 +7,8 @@ export default function Intro() {
       <div className="wrapper">
         <div className="intro-section">
           <h1 className="intro-text">
-            Hello! I'm Agnes, a <span className="bold-text">web developer</span>{" "}
-            and <span className="bold-text">digital designer</span> in
+            Hello! I'm Agnes, a <span className="highlight-text">web developer</span>{" "}
+            and <span className="highlight-text">digital designer</span> in
             Stockholm.
           </h1>
           <div className="about-me">

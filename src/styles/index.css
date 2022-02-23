@@ -48,6 +48,14 @@ p {
   font-weight: bold;
 }
 
+.highlight-text {
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: .05em .05em black;
+}
+
 a:link,
 a:visited {
   color: black;
@@ -175,7 +183,7 @@ footer p {
 .intro-section {
   margin-top: 100px;
   margin-bottom: 100px;
-  width: 930px;
+  width: 950px;
 }
 
 .about-me {
