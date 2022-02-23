@@ -20,7 +20,7 @@ export default function Intro() {
               InDesign, Illustrator, XD, Figma, Webflow
             </p>
             <p>
-              <span className="bold-text">Find me online:</span>{" "}
+              <span className="bold-text">Say hi:</span>{" "}
               <a
                 href="mailto:agnes.kalstrom@hyperisland.se"
                 className="contact-link"

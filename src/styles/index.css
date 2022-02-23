@@ -46,6 +46,7 @@ p {
 
 .bold-text {
   font-weight: bold;
+  transform: translate(-50%, -50%);
 }
 
 a:link,

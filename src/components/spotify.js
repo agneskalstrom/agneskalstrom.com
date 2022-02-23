@@ -20,7 +20,7 @@ export default function Spotify() {
           </p>
         </>
       ) : (
-        <p>Currently not listening to anything</p>
+        <p>Not listening to anything</p>
       )}
     </div>
   )
