@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectIntro from "../../components/projectIntro"
-import recipe from "../../images/recipe-app.jpg"
-import recipe2 from "../../images/recipe-app-2.svg"
+import recipe from "../../images/projects/recipe-app.jpg"
+import recipe2 from "../../images/projects/recipe-app-2.svg"
 
 
 export default function RecipeApp() {

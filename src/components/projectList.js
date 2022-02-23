@@ -1,7 +1,7 @@
-import recipe from "../images/recipe-app.jpg"
-import creativeChase from "../images/creativechase.svg"
-import digisera from "../images/digisera-main.svg"
-import plantBud from "../images/plantbud.jpg"
+import recipe from "../images/projects/recipe-app.jpg"
+import creativeChase from "../images/projects/creativechase.svg"
+import digisera from "../images/projects/digisera-main.svg"
+import plantBud from "../images/projects/plantbud.jpg"
 
 const allProjects = [
   {

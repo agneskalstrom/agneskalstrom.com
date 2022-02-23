@@ -1,9 +1,9 @@
 import React from "react"
 import ProjectIntro from "../../components/projectIntro"
-import plantbud from "../../images/plantbud.jpg"
-import plantbud2 from "../../images/plantbud-2.svg"
-import plantbud3 from "../../images/plantbud-3.svg"
-import plantbud4 from "../../images/plantbud-4.svg"
+import plantbud from "../../images/projects/plantbud.jpg"
+import plantbud2 from "../../images/projects/plantbud-2.svg"
+import plantbud3 from "../../images/projects/plantbud-3.svg"
+import plantbud4 from "../../images/projects/plantbud-4.svg"
 
 export default function PlantBud () {
   return (

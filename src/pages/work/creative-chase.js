@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectIntro from "../../components/projectIntro"
-import creativechase from "../../images/creativechase.svg"
-import creativechase2 from "../../images/creativechase-2.jpg"
+import creativechase from "../../images/projects/creativechase.svg"
+import creativechase2 from "../../images/projects/creativechase-2.jpg"
 
 export default function CreativeChase () {
   return (

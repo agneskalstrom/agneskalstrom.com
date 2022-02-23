@@ -1,6 +1,5 @@
 import React from "react"
 import Spotify from "./spotify"
-import arrow from "../images/svg/down-arrow.svg"
 
 export default function Intro() {
   return (

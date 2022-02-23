@@ -1,11 +1,11 @@
 import React from "react"
 import ProjectIntro from "../../components/projectIntro"
-import digisera from "../../images/digisera.jpg"
-import digisera2 from "../../images/digisera-2.jpg"
-import digisera3 from "../../images/digisera-3.svg"
-import digisera4 from "../../images/digisera-4.svg"
-import digisera5 from "../../images/digisera-5.svg"
-import digisera6 from "../../images/digisera-6.svg"
+import digisera from "../../images/projects/digisera.jpg"
+import digisera2 from "../../images/projects/digisera-2.jpg"
+import digisera3 from "../../images/projects/digisera-3.svg"
+import digisera4 from "../../images/projects/digisera-4.svg"
+import digisera5 from "../../images/projects/digisera-5.svg"
+import digisera6 from "../../images/projects/digisera-6.svg"
 
 export default function Digisera() {
   return (
