@@ -6,7 +6,7 @@ import angledArrow from "../images/svg/angled-arrow.svg"
 export default function ProjectIntro(props) {
   return (
     <section className="wrapper">
-      <div className="inner-wrapper intro-section">
+      <div className="intro-section">
         <Link to="/#work" className="back-arrow">
           <img src={leftArrow} alt="Go back" />
         </Link>
