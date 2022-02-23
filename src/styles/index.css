@@ -89,7 +89,7 @@ header {
 }
 
 .sticker-text {
-  font-size: .6em;
+  font-size: 16px;
   text-transform: uppercase;
   text-align: right;
   margin-right: 100px;
