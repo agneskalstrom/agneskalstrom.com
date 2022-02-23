@@ -172,17 +172,10 @@ footer p {
 
 /* Intro */
 
-.main-intro, .intro-section {
+.intro-section {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.intro-section {
   width: 930px;
-}
-
-.intro-text {
-  font-weight: 400;
 }
 
 .about-me {
@@ -350,7 +343,7 @@ footer p {
 /* Media queries */
 
 @media screen and (max-width: 1024px) {
-  .main-intro, .intro-section {
+  .intro-section {
     margin-top: 80px;
     margin-bottom: 80px;
   }
@@ -382,7 +375,7 @@ footer p {
     font-size: 18px;
   }
 
-  .main-intro, .intro-section {
+  .intro-section {
     margin-top: 50px;
     margin-bottom: 70px;
   }
