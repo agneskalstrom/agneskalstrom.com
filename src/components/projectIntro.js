@@ -10,7 +10,7 @@ export default function ProjectIntro(props) {
         <Link to="/#work" className="back-arrow">
           <img src={leftArrow} alt="Go back" />
         </Link>
-        <h1 className="project-title">Project: <span className="bold-text">{props.title}</span></h1>
+        <h1 className="project-title">Project: <span className="highlight-text">{props.title}</span></h1>
         <div className="project-workflow">
           <p>
             <span className="bold-text">Case: </span>
