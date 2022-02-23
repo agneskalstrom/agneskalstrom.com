@@ -10,7 +10,7 @@ export default function PlantBud () {
     <>
       <ProjectIntro
         title="PlantBud"
-        case="During one of our design sprints at Hyper Island, we were challenged to come up with an idea and a website design for a made-up company in 24 hours. A year later I challenged myself to redo the design and refine the concept in the same amount of time."
+        case="During one of our design sprints at Hyper Island, we were challenged to come up with an idea and a website design for a fictional company in 24 hours. A year later I challenged myself to redo the design and refine the concept in the same amount of time."
         role="Designer."
         problem="Being a houseplant enthusiast who was in a position where I had to get rid of a large portion of my collection, I found myself searching for an app/website where I could make the plants I was donating available to other plant lovers around me."
         approach="Having the basic idea already figured out, I wanted to create a fun and welcoming website that would encourage people to join the community."
