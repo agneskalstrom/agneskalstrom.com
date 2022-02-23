@@ -15,12 +15,12 @@ export default function Spotify() {
       {lastFM.status === "playing" ? (
         <>
           <p>
-            Listening to <span class="song-title">{lastFM.song.name}</span> by{" "}
-            <span class="artist">{lastFM.song.artist}</span>
+            Listening to <span class="song-title">{lastFM.song.name}</span>{" "}by{" "}
+            {lastFM.song.artist}
           </p>
         </>
       ) : (
-        <p>Not currently listening to anything</p>
+        <p>Currently not listening to anything</p>
       )}
     </div>
   )

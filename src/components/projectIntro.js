@@ -38,7 +38,7 @@ export default function ProjectIntro(props) {
           </p>
           <p>
             <span className="bold-text">{props.linkPrefix}</span>{" "}
-            <a href={props.linkURL}>{props.linkText}</a> <a href={props.linkURL} target="_blank" class="angled-arrow"><img src={angledArrow} alt="Open link in new tab" /></a>
+            <a href={props.linkURL}>{props.linkText}</a> <a href={props.linkURL} target="_blank" rel="noreferrer" class="angled-arrow"><img src={angledArrow} alt="Open link in new tab" /></a>
           </p>
         </div>
       </div>

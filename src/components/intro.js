@@ -21,15 +21,13 @@ export default function Intro() {
               InDesign, Illustrator, XD, Figma, Webflow
             </p>
             <p>
-              <span className="bold-text">Say hi:</span>{" "}
+              <span className="bold-text">Find me online:</span>{" "}
               <a
                 href="mailto:agnes.kalstrom@hyperisland.se"
                 className="contact-link"
               >
-                agnes.kalstrom [at] hyperisland.se
-              </a>
-            </p>
-            <p>
+                E-mail
+              </a>{" "}
               <a
                 href="https://www.linkedin.com/in/agnes-kalstrom/"
                 className="contact-link"
@@ -37,7 +35,7 @@ export default function Intro() {
                 LinkedIn
               </a>{" "}
               <a
-                href="https://github.com/agneskalstrom"
+                href="https://www.github.com/agneskalstrom/"
                 className="contact-link"
               >
                 GitHub
