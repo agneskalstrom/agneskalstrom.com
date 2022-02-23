@@ -3,6 +3,7 @@ import Box from "./box"
 import allProjects from "./projectList"
 import Slider from "react-slick";
 import {NextArrow, PrevArrow} from "./sliderArrows";
+import arrow from "../images/svg/down-arrow.svg";
 
 export default function ProjectGrid() {
   const settings = {
@@ -32,6 +33,14 @@ export default function ProjectGrid() {
   return (
     <>
       <section className="projects-grid" id="work">
+      <div className="work-link">
+            <p className="large-link">
+              <span className="bold-text">Recent work</span>{" "}
+              <span className="down-arrow">
+                <img src={arrow} alt="Arrow pointing down" />
+              </span>
+            </p>
+          </div>
         <Slider {...settings}>
           {allProjects.map(project => {
             return (

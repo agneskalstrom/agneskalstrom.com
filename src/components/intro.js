@@ -4,7 +4,7 @@ import arrow from "../images/svg/down-arrow.svg"
 
 export default function Intro() {
   return (
-    <section className="intro">
+    <section className="main-intro">
       <div className="wrapper">
         <div className="intro-section">
           <h1 className="intro-text">
@@ -42,14 +42,6 @@ export default function Intro() {
               </a>{" "}
             </p>
             <Spotify />
-          </div>
-          <div className="work-link">
-            <p className="large-link">
-              <span className="bold-text">Recent work</span>{" "}
-              <span className="down-arrow">
-                <img src={arrow} alt="Arrow pointing down" />
-              </span>
-            </p>
           </div>
         </div>
       </div>

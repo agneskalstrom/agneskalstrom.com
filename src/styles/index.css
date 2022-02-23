@@ -172,10 +172,9 @@ footer p {
 
 /* Intro */
 
-.intro > .wrapper {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+.main-intro, .intro-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .intro-section {
@@ -187,15 +186,13 @@ footer p {
 }
 
 .about-me {
-  transition: .2s;
   margin-top: 20px;
-  margin-bottom: 40px;
 }
 
 .spotify-wrapper {
   display: flex;
   font-size: 16px;
-  margin-top: 40px;
+  margin-top: 50px;
   padding: 12px;
   border: 1px solid black;
   width: fit-content;
@@ -226,8 +223,10 @@ footer p {
 }
 
 .large-link {
+  margin-left: 5vw;
   font-size: calc(18px + 2vw);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .large-link:hover {
@@ -238,7 +237,7 @@ footer p {
 .down-arrow img,
 .back-arrow img {
   position: relative;
-  width: 4%;
+  width: 40px;
 }
 
 .down-arrow img {
@@ -313,11 +312,6 @@ footer p {
   transform: scale(1.05);
 }
 
-.inner-wrapper.intro-section {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
 .inner-wrapper 
 .back-arrow {
   display: contents;
@@ -356,6 +350,16 @@ footer p {
 /* Media queries */
 
 @media screen and (max-width: 1024px) {
+  .main-intro, .intro-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .down-arrow img,
+  .back-arrow img {
+  width: 30px;
+}
+
   .cursor {
     display: none;
   }
@@ -364,16 +368,8 @@ footer p {
     display: none;
   }
 
-  .intro > .wrapper {
-    min-height: auto;
-    margin-bottom: 80px;
-    margin-top: 80px;
-  }
-
   .intro-section {
     width: 100%;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   .projects-wrapper {
@@ -386,15 +382,14 @@ footer p {
     font-size: 18px;
   }
 
-  .intro > .wrapper {
-    min-height: auto;
-    margin-bottom: 50px;
+  .main-intro, .intro-section {
     margin-top: 50px;
+    margin-bottom: 70px;
   }
 
-  .inner-wrapper.intro-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .spotify-wrapper {
+    margin-top: 40px;
+    font-size: 14px;
   }
 
   h1 {
@@ -434,10 +429,5 @@ footer p {
 
   .two-section {
     grid-template-columns: 1fr;
-  }
-
-  .down-arrow img,
-  .back-arrow img {
-  width: 30px;
   }
 }
