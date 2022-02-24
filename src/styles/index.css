@@ -431,4 +431,8 @@ footer p {
   .two-section {
     grid-template-columns: 1fr;
   }
+
+  .highlight-text {
+    text-shadow: .07em .07em black;
+  }
 }
