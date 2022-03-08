@@ -78,14 +78,6 @@ a:active {
   cursor: pointer;
 }
 
-a.angled-arrow {
-  border-bottom: 0;
-}
-
-a.angled-arrow:hover {
-  background: none;
-}
-
 /* Header */
 
 header {
@@ -277,14 +269,17 @@ footer p {
   z-index: 1;
   transform: scale(2);
   transition: .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slick-prev {
-  left: 30px;
+  left: 20px;
 }
 
 .slick-prev:hover {
-  left: 20px;
+  left: 10px;
 }
 
 .slick-next {
@@ -413,11 +408,11 @@ footer p {
   }
 
   .slick-prev {
-    left: 25px;
+    left: 15px;
   }
 
   .slick-prev:hover {
-    left: 25px;
+    left: 15px;
   }
 
   .slick-next {
